@@ -1,15 +1,9 @@
 import React from 'react'
 import TableDelivery from './components/TableDelivery'
+import Layout from './layout/Layout'
 
 const App = () => {
-  return (
-    <div className='mx-auto'>
-
-      <h1>Compraventa de leche</h1>
-      <TableDelivery/>
-    </div>
-
-  )
+  return <Layout />
 }
 
 export default App
