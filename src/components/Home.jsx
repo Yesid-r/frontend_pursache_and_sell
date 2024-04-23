@@ -4,7 +4,7 @@ import TableDelivery from './TableDelivery'
 const Home = () => {
   return (
     <div>
-        <TableDelivery/>
+        <h1>Home</h1>
     </div>
   )
 }

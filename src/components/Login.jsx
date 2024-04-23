@@ -52,19 +52,19 @@ const Login = () => {
     }
     return (
         <>
-            <div class="h-screen flex">
-                <div class="hidden lg:flex w-full lg:w-1/2 bg-gray-900  justify-around items-center">
-                    <div class="bg-black opacity-20 inset-0 z-0">
+            <div className="h-screen flex">
+                <div className="hidden lg:flex w-full lg:w-1/2 bg-gray-900  justify-around items-center">
+                    <div className="bg-black opacity-20 inset-0 z-0">
                     </div>
-                    <div class="w-full mx-auto px-20 flex-col items-center space-y-6">
-                        <h1 class="text-white font-bold text-4xl font-sans">LOGIN</h1>
-                        <p class="text-white mt-1">The simplest app to use</p>
-                        <div class="flex justify-center lg:justify-start mt-6">
+                    <div className="w-full mx-auto px-20 flex-col items-center space-y-6">
+                        <h1 className="text-white font-bold text-4xl font-sans">LOGIN</h1>
+                        <p className="text-white mt-1">The simplest app to use</p>
+                        <div className="flex justify-center lg:justify-start mt-6">
 
                         </div>
                     </div>
                 </div>
-                <div class="flex w-full lg:w-1/2 justify-center items-center bg-white  space-y-8">
+                <div className="flex w-full lg:w-1/2 justify-center items-center bg-white  space-y-8">
 
                     <div class="w-full px-8 md:px-32 lg:px-24">
                     {
