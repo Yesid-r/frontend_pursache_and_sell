@@ -9,7 +9,7 @@ import TableDelivery from '../components/TableDelivery'
 const Routers = () => {
   return (
     <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<TableDelivery/>}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/register-customer' element={<RegisterCustomer />}/>
         <Route path='/list-deliverys' element={<TableDelivery />} />
